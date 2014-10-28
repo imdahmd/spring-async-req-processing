@@ -14,3 +14,7 @@
 
 ##### Conclusion:
 Support for async request handling allows you to defer the response computation to another thread, and frees up servlet thread to handle consequtive requests. After a thread is done with its computation, the response is correctly mapped back to the original request.
+
+References:
+* http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-ann-async
+* http://stackoverflow.com/questions/13646428/issue-with-making-a-controller-method-asynchronous-with-spring-3-2-rc2
