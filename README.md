@@ -1,4 +1,4 @@
-### Proof of concept - Async req handling using spring mvc
+### Proof of concept - Asynchronous request handling using spring mvc
 
 ##### Testing:
 1. Run the app: `mvn jetty:run` and notice the logs (on the console itself)
@@ -13,7 +13,7 @@
 1. At this point, i.e after 2.5 secs, all the curl commands return with the response from server with a text reponse like "Result for violet"
 
 ##### Conclusion:
-Support for async request handling allows you to defer the response computation to another thread, and frees up servlet thread to handle consequtive requests. After a thread is done with its computation, the response is correctly mapped back to the original request.
+Support for asynchronous request handling allows you to defer the response computation to another thread, and frees up servlet thread to handle consequtive requests. After a thread is done with its computation, the response is correctly mapped back to the original request.
 
 References:
 * http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-ann-async
