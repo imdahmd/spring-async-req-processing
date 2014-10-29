@@ -10,7 +10,7 @@
          ">
 
     <mvc:annotation-driven>
-        <mvc:async-support default-timeout="3000"/>
+        <mvc:async-support default-timeout="10000"/>
     </mvc:annotation-driven>
     <context:component-scan base-package="com.imdhmd.spring.async.controllers"/>
 
